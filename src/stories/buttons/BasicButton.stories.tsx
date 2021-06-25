@@ -2,7 +2,7 @@ import React from "react";
 import { Meta, Story } from "@storybook/react";
 import styled from "@emotion/styled";
 
-import { BasicButton, IBasicButtonProps } from "../../components/Button";
+import { BasicButton, IBasicButtonProps } from "../../components/button";
 
 const Template: Story<IBasicButtonProps> = (args: IBasicButtonProps) => (
   <BasicButtonSample {...args} />
